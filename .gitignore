@@ -1,0 +1,34 @@
+src/*.exe
+src/tuxcoin
+src/tuxcoind
+src/test_tuxcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.tuxcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+tuxcoin-qt
+Tuxcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+tuxcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
